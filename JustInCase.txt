@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+html{
+    font-size: 100%;
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    background-color:grey;
+    
+}
+
+header{
+    background: linear-gradient(90deg, rgba(50,46,91,1) 0%, rgba(46,91,86,1) 50%, rgba(91,46,51,1) 100%);
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    display: inline;
+}
+
+
+nav{
+    background: linear-gradient(90deg, rgba(50,46,91,1) 0%, rgba(46,91,86,1) 50%, rgba(91,46,51,1) 100%);
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    display: inline;
+    
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+nav ul li a{
+    padding: 15px;
+    color:#F5F5F5;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+    
+}
+
+nav li a:hover{
+    color: #59b0a6;
+}
+
+section{
+    background-image: url(Beautiful2.jpg);
+    background-size: cover;
+    position: fixed;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro-text{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+}
+section p{
+    text-align: center;
+    color: white;
+    font-size:1vw;
+}
+-------------------------------------------------------------------------
+HTML
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Adam El-Telbani </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <nav>
+        <ul class="nav_links">
+            <li><a href="#"> HOME </a></li>
+            <li><a href="#"> ABOUT </a></li>
+            <li><a href="#"> RESUME </a></li>
+            <li><a href="#"> PROJECTS </a></li>
+            <li><a href="#"> CONTACT </a></li>
+        </ul>
+    </nav>
+
+    <section class="main-page">
+        <div class = "intro">
+        <h2 id="intro-text">
+            Adam El-Telbani
+        </h2>
+        <p>
+            Website Portfolio
+        </p>
+       
+    </section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

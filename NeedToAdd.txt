@@ -1,0 +1,9 @@
+Logo
+Align the about section
+Download CV button
+Add icons for languages you know
+Add icons for Github,LinkedIn,Email
+
+Make scroll bar look better
+
+Icons and stuff under Skills and Education
